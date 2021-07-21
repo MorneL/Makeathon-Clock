@@ -1,38 +1,65 @@
 # Clock Makethon
+> The code, installation instructions and schematics for the Clock Makethon
 
-## This repo includes the code, installation instructions and schematics for the Clock Makethon
+## Installation
 
-### **Install and set up Ardiuno IDE**
+### Install and set up Ardiuno IDE
+
 The development board we are using for this project is a NodeMCU 8266 which is not a standard Arduino development board and thus, some additional installation is required.
 
-1. Download the Ardiuno IDE for your OS from https://www.arduino.cc/en/software.
-2. Install and open the IDE
-3. Under the **Preferences** menu, look for **Additional Boards Manager URLs** and paste the following line `https://arduino.esp8266.com/stable/package_esp8266com_index.json` 
-*DO NOT open the link and copy the actual JSON data, just the link.*
-4. Now under the **Tools** menu navigate to **Board > Boards Manager..** and search for `esp8266` by ESP8266 Community and press install. 
-5. Lastly go back to the **Tools** menu and navigate to **Board > ESP8266 Boards** and select **NodeMCU 1.0**
+1. Download the _Ardiuno IDE_ for your OS from the [Arduino](https://www.arduino.cc/en/software) site.
+1. Install and open the IDE.
+1. Configure the ESP8266 package URL.
+    1. Go to the **Preferences** menu.
+    1. Look for **Additional Boards Manager URLs**.
+    1. Copy and paste the following URL. You don't need to open the URL.
+        ```
+        https://arduino.esp8266.com/stable/package_esp8266com_index.json
+        ```
+1. Install ESP8266.
+    1. Go to the **Tools** menu, navigate to **Board > Boards Manager**
+    1. Search for `esp8266` by ESP8266 Community.
+    1. Click install. 
+1. Enable NodeMCU.
+    1. Go to the **Tools** menu.
+    1. Navigate to **Board > ESP8266 Boards**.
+    1. Select **NodeMCU 1.0**.
 
-### **Check if NodeMCU is detected**
-Before plugging in NodeMCU device.
+### Check if NodeMCU is detected
+
+Make sure NodeMCU is not plugged in yet.
+
+Then do the following to confirm it is detected.
 
 1. Navigate to **Tools > Port** and count how many devices.
-2. Plug the device into your usb port.
-3. Follow step 1 and see if one extra device was detected.
+1. Now plug the NodeMCU device into your USB port.
+1. Follow step 1 again to count devices. Verify that one extra device was detected.
 
-If no new device was detected, please message me on slack ASAP so we can debug it quickly.
+If no new device was detected, please message me on Slack ASAP so we can debug it quickly.
 
-### **Download code and install libraries**
-This project requires a few libraries to be compiled
+### Download code and install libraries
 
-1. Clone the code from this repo if you have not done so yet and open the MakethonClock.ino file.
-2. Navigate to **Tools > Manage Libraries..** and search for the following libraries (allow additional dependant libraries to be installed when prompted):
-* RTClib - by Adafruit
-* LCD_I2C - by Blackhack
-* NTPClient - by Fabrice Weinberg
-3. Look for the verify checkmark at the top left of the arduino window and try to verify if all libraries have been installed successfully.
+This project requires a few libraries to be compiled:
 
-### **Compile and upload code to development board**
-TODO
+1. Clone the code from this.
+    ```sh
+    $ git clone git@github.com:MorneL/Makeathon-Clock.git
+    $ cd Makeathon-Clock
+    ````
+1. Open the [MakethonClock.ino](/MakethonClock/MakethonClock.ino) file.
+1. Navigate to **Tools > Manage Libraries**.
+1. search for the following libraries (allow additional dependant libraries to be installed when prompted):
+    * RTClib - by Adafruit
+    * LCD_I2C - by Blackhack
+    * NTPClient - by Fabrice Weinberg
+5. Look for the verify checkmark at the top left of the arduino window. Try to verify that all libraries have been installed successfully.
 
-### **Assemble project**
-TODO
+## Usage
+
+### Compile and upload code to development board
+
+TBC
+
+### Assemble project
+
+TBC
