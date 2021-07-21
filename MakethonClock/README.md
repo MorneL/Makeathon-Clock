@@ -12,6 +12,15 @@ The development board we are using for this project is a NodeMCU 8266 which is n
 4. Now under the **Tools** menu navigate to **Board > Boards Manager..** and search for `esp8266` by ESP8266 Community and press install. 
 5. Lastly go back to the **Tools** menu and navigate to **Board > ESP8266 Boards** and select **NodeMCU 1.0**
 
+### **Check if NodeMCU is detected**
+Before plugging in NodeMCU device.
+
+1. Navigate to **Tools > Port** and count how many devices.
+2. Plug the device into your usb port.
+3. Follow step 1 and see if one extra device was detected.
+
+If no new device was detected, please message me on slack ASAP so we can debug it quickly.
+
 ### **Download code and install libraries**
 This project requires a few libraries to be compiled
 
