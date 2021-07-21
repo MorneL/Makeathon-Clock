@@ -1,6 +1,6 @@
-# Clock Makethon
+# Clock Makeathon
 
-## This repo includes the code, installation instructions and schematics for the Clock Makethon
+## This repo includes the code, installation instructions and schematics for the Clock Makeathon
 
 ### **Install and set up Ardiuno IDE**
 The development board we are using for this project is a NodeMCU 8266 which is not a standard Arduino development board and thus, some additional installation is required.
@@ -24,7 +24,7 @@ If no new device was detected, please message me on slack ASAP so we can debug i
 ### **Download code and install libraries**
 This project requires a few libraries to be compiled
 
-1. Clone the code from this repo if you have not done so yet and open the MakethonClock.ino file.
+1. Clone the code from this repo if you have not done so yet and open the MakeathonClock.ino file.
 2. Navigate to **Tools > Manage Libraries..** and search for the following libraries (allow additional dependant libraries to be installed when prompted):
 * RTClib - by Adafruit
 * LCD_I2C - by Blackhack
