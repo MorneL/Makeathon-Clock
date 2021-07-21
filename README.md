@@ -18,7 +18,7 @@
 
 The development board we are using for this project is a NodeMCU 8266 which is not a standard Arduino development board and thus, some additional installation is required.
 
-1. Download the _Ardiuno IDE_ - go to the _Downloads_ section of the [Arduino software](https://www.arduino.cc/en/software) page and find your OS.
+1. Download the _Arduino IDE_ - go to the _Downloads_ section of the [Arduino software](https://www.arduino.cc/en/software) page and find your OS.
 1. Install and open the IDE.
 1. Configure the ESP8266 package URL.
     1. Go to the **Preferences** menu.
