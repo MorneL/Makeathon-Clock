@@ -17,11 +17,13 @@ The development board we are using for this project is a NodeMCU 8266 which is n
         https://arduino.esp8266.com/stable/package_esp8266com_index.json
         ```
 1. Install ESP8266.
-    1. Go to the **Tools** menu, navigate to **Board > Boards Manager**
-    1. Search for `esp8266` by ESP8266 Community.
-    1. Click install. 
+    1. Open the **Tools** menu.
+    1. Navigate to **Board > Boards Manager**
+    1. Search for `esp8266`, which will show as _by ESP8266 Community_.
+    1. Click the item and then click **Install**. 
+    1. Close when done. 
 1. Enable NodeMCU.
-    1. Go to the **Tools** menu.
+    1. Open the **Tools** menu.
     1. Navigate to **Board > ESP8266 Boards**.
     1. Select **NodeMCU 1.0**.
 
