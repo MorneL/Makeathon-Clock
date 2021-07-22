@@ -48,10 +48,10 @@ This project requires a few libraries to be compiled:
     ````
 1. Open the [MakethonClock.ino](/MakethonClock/MakethonClock.ino) file.
 1. Navigate to **Tools > Manage Libraries**.
-1. search for the following libraries (allow additional dependant libraries to be installed when prompted):
-    * RTClib - by Adafruit
-    * LCD_I2C - by Blackhack
-    * NTPClient - by Fabrice Weinberg
+1. Search for the following libraries (allow additional dependant libraries to be installed when prompted):
+    * **RTClib** - by Adafruit.
+    * **LCD_I2C** - by Blackhack (search for `lcd_i2c`).
+    * **NTPClient** - by Fabrice Weinberg.
 5. Look for the verify checkmark at the top left of the arduino window. Try to verify that all libraries have been installed successfully.
 
 ## Usage
