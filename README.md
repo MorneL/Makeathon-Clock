@@ -1,13 +1,24 @@
 # Clock Makethon
 > The code, installation instructions and schematics for the Clock Makethon
 
+## Resources
+
+- [Arduino](https://www.arduino.cc/) homepage
+    > Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
+- [Arduino IDE](https://en.wikipedia.org/wiki/Arduino_IDE) on Wikipedia.
+- [Arduino IDE](https://www.arduino.cc/en/Guide) getting started page.
+- [NodeMCU](https://www.nodemcu.com/index_cn.html) (Node micro-controller unit) homepage
+    > An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines 
+- [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU) on Wikipedia.
+- [ESP8266](https://en.wikipedia.org/wiki/ESP8266) microchip on Wikipedia.
+
 ## Installation
 
-### Install and set up Ardiuno IDE
+### Install and set up Arduino IDE
 
 The development board we are using for this project is a NodeMCU 8266 which is not a standard Arduino development board and thus, some additional installation is required.
 
-1. Download the _Ardiuno IDE_ for your OS from the [Arduino](https://www.arduino.cc/en/software) site.
+1. Download the _Arduino IDE_ - go to the _Downloads_ section of the [Arduino software](https://www.arduino.cc/en/software) page and find your OS.
 1. Install and open the IDE.
 1. Configure the ESP8266 package URL.
     1. Go to the **Preferences** menu.
