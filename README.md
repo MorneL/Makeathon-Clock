@@ -74,5 +74,5 @@ This project requires a few libraries to be compiled:
 TBC
 
 ### Assemble project
-
-TBC
+Schematics
+![myimage-alt-tag](Assets/clock_schematics.jpeg)
