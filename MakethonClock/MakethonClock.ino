@@ -107,8 +107,8 @@ void displayTime() {
 }
 
 void displayCustomMsg() {
-  newDisplayContent[0] = "#ct-makeathon";
-  newDisplayContent[1] = "Coding! 🚀👨‍💻👩‍💻";
+  newDisplayContent[0] = "Hello World";
+  newDisplayContent[1] = "This is fun";
 }
 
 void setup() {
